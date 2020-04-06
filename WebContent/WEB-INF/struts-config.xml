@@ -6,10 +6,10 @@
 
 	<action-mappings>
 		<!-- old aproch -->
-<!-- 		<action path="/hi" type="org.apache.struts.actions.ForwardAction" parameter="/second.jsp" /> -->
+		<action path="/hi" type="org.apache.struts.actions.IncludeAction" parameter="/second.jsp" />
 		
 		<!-- new aproch -->
-		<action path="/hi" forward="/second.jsp"></action>
+<!-- 		<action path="/hi" include="/second.jsp"></action> -->
 	</action-mappings>
 
 </struts-config>
